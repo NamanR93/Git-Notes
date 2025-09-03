@@ -1,3 +1,3 @@
 # Git-Notes
-This is my first Git Repository.
+This is my Git Repo.
 <br>
