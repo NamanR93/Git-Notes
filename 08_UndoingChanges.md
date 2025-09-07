@@ -62,8 +62,8 @@ staged file --> not staged
 - `git revert <commit-hash>`
 
 
-# Git Status
+# Git Staged
 
 - Should you decide not to commit the change, the status command will remind you that you can run git restore --staged command to unstage these changes.
 
-![image](Images/Staged.png)
+
