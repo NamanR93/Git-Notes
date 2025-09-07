@@ -14,4 +14,25 @@
 
 ** git commit -m "some message" **  
 
+# git history:
+
+- we can see the history of our work using: ** git log **
+
+- to see everything :
+  
+** git log --all --pretty=format:"%h %cd %s (%an)" --since="7 days ago" **
+  
+- most suitable:
+  
+** git log --pretty=format:"%h %ad | %s%d [%an]" --date=short **
+ 
+  <img width="569" height="424" alt="image" src="https://github.com/user-attachments/assets/2af4a964-f392-4ba6-adfc-df6fd4fb9437" />
+
+  
+
+  <img width="589" height="619" alt="image" src="https://github.com/user-attachments/assets/1e38b821-dd1c-4c18-abf2-5175b7ddc577" />
+  
+
+
+
 
