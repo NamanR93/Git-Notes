@@ -60,3 +60,10 @@ staged file --> not staged
 - git revert creates a new commit that undoes the changes made by a previous commit.
 - Unlike git reset, it preserves the commit history, making it ideal for collaborative workflows
 - `git revert <commit-hash>`
+
+
+# Git Status
+
+- Should you decide not to commit the change, the status command will remind you that you can run git restore --staged command to unstage these changes.
+
+![image](C:\Users\nitin\Desktop\Learn\IDK\GIT\Images\Staged.png)
