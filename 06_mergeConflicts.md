@@ -3,7 +3,8 @@
 ## First way - Using command
 
 - To compare commits, branches, files & more): `git diff <branch-name>` 
-- To merge two branches: `git merge <branch-name>`  
+- To merge two branches: `git merge <branch-name>`
+- To abort merge:  ` git merge --abort `  
 
 ## Second -  creating a PR on Github
 
@@ -110,5 +111,6 @@ Cons of Rebase:
 ❌ Harder to undo (git reflog is needed to recover lost commits).
 
 ## Use Case
+
 
 ![image](https://github.com/user-attachments/assets/13807045-1f1c-4fe8-a36d-014a3c058eb5)
