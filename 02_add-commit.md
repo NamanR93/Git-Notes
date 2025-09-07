@@ -14,6 +14,11 @@
 
 ** git commit -m "some message" **  
 
+- To update the msg to commit:
+**  git commit --amend -m "some message with add" **
+
+  
+
 # git history:
 
 - we can see the history of our work using: ** git log **
@@ -32,6 +37,8 @@
 
   <img width="589" height="619" alt="image" src="https://github.com/user-attachments/assets/1e38b821-dd1c-4c18-abf2-5175b7ddc577" />
   
+** gitK **
+- to see the explore the log history.
 
 
 
