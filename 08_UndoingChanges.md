@@ -66,4 +66,5 @@ staged file --> not staged
 
 - Should you decide not to commit the change, the status command will remind you that you can run git restore --staged command to unstage these changes.
 
-![image](Images/Staged.png)
+![image](https://github.com/user-attachments/assets/414de3e3-72a2-4dbc-ad08-6d8325f9a9c7>
+)
