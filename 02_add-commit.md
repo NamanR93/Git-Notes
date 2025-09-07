@@ -22,7 +22,7 @@
 # git history:
 
 - we can see the history of our work using: ** git log **
-
+- to gee graph do:  ** git log -all --graph **
 - to see everything :
   
 ** git log --all --pretty=format:"%h %cd %s (%an)" --since="7 days ago" **
@@ -47,6 +47,7 @@
 
 
   
+
 
 
 
