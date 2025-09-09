@@ -38,7 +38,7 @@
   <img width="589" height="619" alt="image" src="https://github.com/user-attachments/assets/1e38b821-dd1c-4c18-abf2-5175b7ddc577" />
   
 ` gitK `
-- to explore the log history (it will open the git GUI)
+- to explore the changes (it will open the git GUI)
 
 # git rename
 
@@ -47,6 +47,7 @@
 
 
   
+
 
 
 
