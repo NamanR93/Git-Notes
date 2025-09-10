@@ -15,6 +15,7 @@
 ` git commit -m "some message" `  
 
 - To update the msg to commit:
+  
 `  git commit --amend -m "some message with add" `
 
   
@@ -47,6 +48,7 @@
 
 
   
+
 
 
 
