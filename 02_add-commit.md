@@ -41,6 +41,10 @@
 ` gitK `
 - to explore the changes (it will open the git GUI)
 
+# git Diff
+
+- ` git diff commit1 commit2 `
+- It is used to show the difference between working dir and staging area.
 # git rename
 
 ` mv file.txt file2.txt `
@@ -48,6 +52,7 @@
 
 
   
+
 
 
 
