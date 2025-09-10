@@ -16,11 +16,11 @@
    
 4.  To rename a branch  `git branch -M <branch-name>`
    
-     ![image](https://github.com/user-attachments/assets/20fb4428-7910-47d1-b803-dd7cc9553720)
+     <img width="658" height="234" alt="image" src="https://github.com/user-attachments/assets/a7f78100-f344-43b0-b2c7-56154faf7b9b" />
+
 
 5. List All Branches: `git branch`
    
-     ![image](https://github.com/user-attachments/assets/3133b378-2289-4a36-90ec-57a92f67479f)
 
 6. Switch to an Existing Branch: `git checkout <branch-name>` OR ` git switch <branch_name> `
    
@@ -34,3 +34,4 @@
 
 
      ![image](https://github.com/user-attachments/assets/ec85d5e4-be89-478b-997a-e083fdce438c)
+
