@@ -7,11 +7,11 @@
 
 # Commands
 
-** git clone <--some repo link--> **
+` git clone <--some repo link--> `
 
   - This will clone the remote repository to your local machine.
 
-** git status **
+` git status `
 
   - This will check the status of your code i.e. tracked, commits, changed or unchanged.
   - there r 4 things that comes under status.
@@ -21,3 +21,4 @@
    3. staged    : files r ready to be committed.
 
    4. unmodified: means unchanged.
+
