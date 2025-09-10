@@ -12,7 +12,8 @@
 2. Create and Switch to a New Branch (old way): `git checkout -b <branch-name>` OR  ` git switch -c <branch_name> `
  
    
-     ![image](https://github.com/user-attachments/assets/7c652572-53e4-4af1-b948-f26bc39520c3)
+     <img width="664" height="168" alt="image" src="https://github.com/user-attachments/assets/ef026b61-78ad-4a0f-bfb1-6a508d9e1e0d" />
+
    
 4.  To rename a branch  `git branch -M <branch-name>`
    
@@ -20,18 +21,23 @@
 
 
 5. List All Branches: `git branch`
+
+   <img width="529" height="113" alt="image" src="https://github.com/user-attachments/assets/bf5d06da-b18b-437c-aada-c32b664e8e9d" />
+
    
 
-6. Switch to an Existing Branch: `git checkout <branch-name>` OR ` git switch <branch_name> `
+7. Switch to an Existing Branch: `git checkout <branch-name>` OR ` git switch <branch_name> `
    
-     ![image](https://github.com/user-attachments/assets/d6116e1d-c90c-4aa2-82a8-2a6b1d7e08c6)
+     <img width="817" height="323" alt="image" src="https://github.com/user-attachments/assets/60f25b35-2134-49a8-9172-9a9ef6555471" />
+
   
-7. Delete a Branch: `git branch -d <branch-name>`
+8. Delete a Branch: `git branch -d <branch-name>`
 
-     ![image](https://github.com/user-attachments/assets/a7c3ea51-084c-4730-9ea4-26a67f766602)
-
-8.  Pushing a branch: `git push origin <branch-name>`
+     <img width="637" height="220" alt="image" src="https://github.com/user-attachments/assets/e8d5970f-3d29-4b2b-a5fc-a41c8a4aa5aa" />
 
 
-     ![image](https://github.com/user-attachments/assets/ec85d5e4-be89-478b-997a-e083fdce438c)
+9.  Pushing a branch: `git push origin <branch-name>`
+
+
+
 
