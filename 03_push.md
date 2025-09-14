@@ -18,4 +18,5 @@
      
 2. Regular Push (after commits): Once the upstream branch is set, you can just run:
    
+
    - `git push`
