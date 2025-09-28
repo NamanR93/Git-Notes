@@ -10,9 +10,15 @@
 
 - this will add the all files to the staging area.
 
+` git rm --cached <file_name> `
+
+- this will take the file from staged to unstaged.
+
 # git commit:
 
-` git commit -m "some message" `  
+` git commit -m "some message" `
+
+` git commit -am "some message" ` : will add and commit.
 
 - To update the msg to commit:
   
@@ -45,15 +51,22 @@
 
 - ` git diff commit1 commit2 `
 - It is used to show the difference between working dir and staging area.
-# git rename
+
+  
+# rename
 
 ` mv file.txt file2.txt `
 - this will change the name file to file2
 
  ` rm -rf .git/ ` : will delete the folder.
 
+` vim <file_name ` : open the vim editor.
+
+` :wq! ` : will save the things in vim and exit it.
+
 
   
+
 
 
 
