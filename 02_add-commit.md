@@ -50,8 +50,11 @@
 ` mv file.txt file2.txt `
 - this will change the name file to file2
 
+ ` rm -rf .git/ ` : will delete the folder.
+
 
   
+
 
 
 
