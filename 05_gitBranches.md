@@ -24,8 +24,9 @@
 
    <img width="529" height="113" alt="image" src="https://github.com/user-attachments/assets/bf5d06da-b18b-437c-aada-c32b664e8e9d" />
 
-   
+6. List All branches in remote system : ` git branch -r `
 
+   
 7. Switch to an Existing Branch: `git checkout <branch-name>` OR ` git switch <branch_name> `
    
      <img width="817" height="323" alt="image" src="https://github.com/user-attachments/assets/60f25b35-2134-49a8-9172-9a9ef6555471" />
@@ -37,6 +38,7 @@
 
 
 9.  Pushing a branch: `git push origin <branch-name>`
+
 
 
 
