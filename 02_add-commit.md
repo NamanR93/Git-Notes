@@ -53,19 +53,11 @@
 - It is used to show the difference between working dir and staging area.
 
   
-# rename
 
-` mv file.txt file2.txt `
-- this will change the name file to file2
-
- ` rm -rf .git/ ` : will delete the folder.
-
-` vim <file_name ` : open the vim editor.
-
-` :wq! ` : will save the things in vim and exit it.
 
 
   
+
 
 
 
