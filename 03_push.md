@@ -9,6 +9,9 @@
   branch: The branch you want to push changes to (e.g., main, master, or feature-branch).
 
 - Example: `git push origin main` : Pushes the local `main` branch to the `origin` remote repository.
+  
+- We can check the name of the remote as well using  ` git remote `
+- Nd to check URL of remote :  ` git remote -v `
 
 ## Common Use Cases:
 1. First Push (after cloning or creating a new repository):
@@ -20,3 +23,4 @@
    
 
    - `git push`
+
