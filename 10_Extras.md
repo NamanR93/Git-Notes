@@ -22,6 +22,6 @@
   <img width="710" height="170" alt="image" src="https://github.com/user-attachments/assets/d95bf8fb-d286-42e1-937a-9ce09a30d16c" />
 
  OR
-- we can do that using command also: eg: git config --global alias.ch checkout
+- we can do that using command also: eg: ` git config --global alias.ch checkout ` 
  <img width="344" height="62" alt="image" src="https://github.com/user-attachments/assets/0cd8ed34-cdbb-4b0d-b42a-bfe603cf58fb" />
   
