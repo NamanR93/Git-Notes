@@ -28,6 +28,7 @@
 
 # git history:
 
+- To see commits with : ` git show <hash-code> `
 - we can see the history of our work using: ` git log `
 - to gee graph do:  ` git log -all --graph `
 - to see everything :
@@ -57,6 +58,7 @@
 
 
   
+
 
 
 
