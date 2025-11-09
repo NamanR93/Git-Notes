@@ -19,4 +19,5 @@
    - This allows you to push and pull changes between your local repository and the remote repository.
    - `git remote -v` : to verify remote
    - `git branch` : to check branch
-7. `git push origin main` 
+7. `git push origin main` or ` git push -u origin main `: this is to set the upstream.
+
