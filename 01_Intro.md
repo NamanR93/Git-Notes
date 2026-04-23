@@ -1,6 +1,6 @@
 # GIT
 
-- It is a version control system which helps us to track, make changes for our applications.
+- It is a Distributed version control system which helps us to track, make changes for our applications.
 
 # GitHub
 - Its cloud based platform which keeps all our codes and files in the form of folders called Repositories (repo).
