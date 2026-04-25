@@ -1,6 +1,8 @@
 # Head
 - HEAD is a pointer that represents your currrent and points to the latest commit on that branch
-- cat .git/Head  : will show where HEAD is pointing to.
+- cat .git/Head or cat HEAD : will show where HEAD is pointing to.
+
+
 # Git Branches
 
 - Git branches are a way to work on different versions of a repository at the same time. 
@@ -27,7 +29,7 @@
 
    <img width="529" height="113" alt="image" src="https://github.com/user-attachments/assets/bf5d06da-b18b-437c-aada-c32b664e8e9d" />
 
-6. List All branches in remote system : ` git branch -r `
+6. List All branches in remote system : ` git branch -r ` or  ` git branch --all `
 
    
 7. Switch to an Existing Branch: `git checkout <branch-name>` OR ` git switch <branch_name> `
