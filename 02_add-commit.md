@@ -48,10 +48,13 @@
   
 ` gitK `   :  to explore the changes (it will open the git GUI)
 
-# git Diff
+# git Diff  : 
 
 - ` git diff commit1 commit2 `
 - It is used to show the difference between working dir and staging area.
+- Shows diff between two specific commits.
+
+
 
   
 
