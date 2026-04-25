@@ -1,3 +1,6 @@
+# Head
+- HEAD is a pointer that represents your currrent and points to the latest commit on that branch
+- cat .git/Head  : will show where HEAD is pointing to.
 # Git Branches
 
 - Git branches are a way to work on different versions of a repository at the same time. 
@@ -15,7 +18,7 @@
      <img width="664" height="168" alt="image" src="https://github.com/user-attachments/assets/ef026b61-78ad-4a0f-bfb1-6a508d9e1e0d" />
 
    
-4.  To rename a branch  `git branch -M <branch-name>`
+4.  To rename a branch  `git branch -M <old-name> <new-name>`
    
      <img width="658" height="234" alt="image" src="https://github.com/user-attachments/assets/a7f78100-f344-43b0-b2c7-56154faf7b9b" />
 
