@@ -53,6 +53,16 @@
 - ` git diff commit1 commit2 `
 - It is used to show the difference between working dir and staging area.
 - Shows diff between two specific commits.
+- <img width="1026" height="331" alt="image" src="https://github.com/user-attachments/assets/4bd102fe-0b98-4aa0-9fb1-e5e5b461bbcb" />
+<img width="1038" height="316" alt="image" src="https://github.com/user-attachments/assets/eed7650b-7eff-4f60-bc0c-161b37f7bf7b" />
+<img width="1131" height="341" alt="image" src="https://github.com/user-attachments/assets/1b6393ed-777b-43f0-b126-46cb09c031a1" />
+<img width="1239" height="700" alt="image" src="https://github.com/user-attachments/assets/c6d8c638-0176-4ed3-b005-37eb6fafb556" />
+
+
+
+
+
+
 
 
 
