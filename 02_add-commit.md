@@ -24,20 +24,21 @@
   
 `  git commit --amend -m "some message with add" `
 
-  
+ # Extras 
+ - After commit we can run this command to see diff infos:
+    - to see type of object:    ` git cat-file a8ebce3 -t `
+    - to see size:              ` git cat-file a8ebce3 -s `
+    - to see
+   
 
-# git history:
+ # git history:
 
-- To see commits with : ` git show <hash-code> `
-- we can see the history of our work using: ` git log `
-- to gee graph do:  ` git log -all --graph `
-- to see everything :
+- To see commits with                      :  ` git show <hash-code> `
+- to see the history of our commits        :  ` git log `
+- to gee graph do                          :  ` git log -all --graph `
+- to see everything                        :  ` git log --all --pretty=format:"%h %cd %s (%an)" --since="7 days ago" `
   
-` git log --all --pretty=format:"%h %cd %s (%an)" --since="7 days ago" `
-  
-- most suitable:
-  
-` git log --pretty=format:"%h %ad | %s%d [%an]" --date=short `
+- most suitable         :                      ` git log --pretty=format:"%h %ad | %s%d [%an]" --date=short `
  
   <img width="569" height="424" alt="image" src="https://github.com/user-attachments/assets/2af4a964-f392-4ba6-adfc-df6fd4fb9437" />
 
@@ -45,8 +46,7 @@
 
   <img width="589" height="619" alt="image" src="https://github.com/user-attachments/assets/1e38b821-dd1c-4c18-abf2-5175b7ddc577" />
   
-` gitK `
-- to explore the changes (it will open the git GUI)
+` gitK `   :  to explore the changes (it will open the git GUI)
 
 # git Diff
 
