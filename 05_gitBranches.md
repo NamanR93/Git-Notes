@@ -42,7 +42,11 @@
      <img width="637" height="220" alt="image" src="https://github.com/user-attachments/assets/e8d5970f-3d29-4b2b-a5fc-a41c8a4aa5aa" />
 
 
-9.  Pushing a branch: `git push origin <branch-name>`
+9.  `git push origin <branch-name>`  :  Pushing a branch:
+10. `git remote -v`                  :  shows the remote repository URLs for Fetching & Pushing.
+11. `git branch -r`                  :  list all the remote branches
+12. `git branch -vv`                 :  shows local branches with their tracking remote branches and latest commits.
+13. `git remote show origin`         :  Display details..
 
 
 
