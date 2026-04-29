@@ -26,9 +26,9 @@
 
  # Extras 
  - After commit we can run this command to see diff infos:
-    - to see type of object:    ` git cat-file a8ebce3 -t `
+    - to see type of object :   ` git cat-file a8ebce3 -t `
     - to see size:              ` git cat-file a8ebce3 -s `
-    - to see
+    - to see tree           :   ` git cat-file <hash-value> -p `
    
 
  # git history:
