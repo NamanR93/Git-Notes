@@ -7,5 +7,10 @@
 
 
 # Pull
-- ` git pull origin main `
-- Used to fetch the content from a remote repo and immediately update the local repo to match the content.  
+- ` git pull origin main ` : combo of Fetch + Merge.
+- Used to fetch the content from a remote repo and immediately update the local repo to match the content.
+
+# Fetch
+- It downloads the updates from remote repo without changing your working branch.
+- Lets you review changes before merging.
+- After fetching, you can use git merge or git diff to inspect and apply the changes. 
