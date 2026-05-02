@@ -1,3 +1,6 @@
+# Origin
+
+- origin is the default name Git gives to the remote repo.
 # Push
 
 - The git push command is used to upload (or push) your local repository changes to a remote repository (e.g., GitHub, GitLab, Bitbucket). 
