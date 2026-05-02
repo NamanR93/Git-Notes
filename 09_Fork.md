@@ -14,3 +14,11 @@
 ## How to Fork a Repository on GitHub:
 
 - On the top right of the repository page, click the "Fork" button. This creates a copy of the repository under your GitHub account.
+
+  Demo:
+     - create one repo in one account and fork it using another.
+	   - Now do some changes in parent repo, then to bring those in child(forked one) , we do sync  fork button.
+   - Now we will see, how we can contribute to main branch using forking.
+	    - we have clone the repo(Namans one), create feature branch , commit changes and push it.
+	    - Now create the PR for the owner(Numun) to review it and merge the changes.
+	    - Now go to Numuns account , review the PR and merge the changes. Also sync  fork the changes to Namans as well.
