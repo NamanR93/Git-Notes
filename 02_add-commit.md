@@ -36,6 +36,16 @@
 - To see commits with                      :  ` git show <hash-code> `
 - to see the history of our commits        :  ` git log `
 - to gee graph do                          :  ` git log -all --graph `
+- to see last 4 commits                    :  ` git log -n4 `
+
+- summarize git history, grouped by author with their commit messages   : ` git shortlog`
+- shows a summary of commits per author, sorted by no of commits        :  ` git shortlog -n -s `
+
+- show commits made by the specified author                       : ` git log --author="NamanR93" `
+- filter and displays commits that have "Naman" in their commit   : ` git log --grep="Naman" `
+
+
+
 - to see everything                        :  ` git log --all --pretty=format:"%h %cd %s (%an)" --since="7 days ago" `
   
 - most suitable         :                      ` git log --pretty=format:"%h %ad | %s%d [%an]" --date=short `
