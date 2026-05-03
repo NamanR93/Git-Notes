@@ -3,7 +3,19 @@
    - `git cherry-pick <hash> `
    - It is used to apply a specific commit from one branch onto another, without merging the another branch.
    - It a act of picking a commit from a branch and applying it to another.
-     
+
+## stashing
+
+   ` git stash ` ` git stash list ` ` git stash list`
+   - git stash temporarily saves your uncommitted changes(in tracked files) so you can work on something else and come back to them later.
+   - use : when you want to switch branches without committing unfinished work
+   - lets you pause work, fix something else, and resume later.
+   - to drop the stash things:  ` git stash pop `
+
+## squashing
+
+   - git squash is the process of combining multiple commits into a single commit. It is commonly used during interactive rebasing to clean up commit history before merging.
+   
 ## rename
 
 ` mv file.txt file2.txt `
