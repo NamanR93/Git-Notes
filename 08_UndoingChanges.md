@@ -22,7 +22,6 @@
             - `git reset`
          ### Example
             - staged file --> not staged
-            ![image](https://github.com/user-attachments/assets/1995d975-9d3f-4bbb-a2f2-616cebe304e5)
 
   3. --hard: moved HEAD and discard all changes (both staged and working directory)
      
@@ -41,11 +40,10 @@
 
 ### Example
 
- ![image](https://github.com/user-attachments/assets/e7ca1042-ec6a-4fdd-a05c-8a4617e6f6f3)
-
+ 
 - To view all the commits: `git log`
 
-  ![image](https://github.com/user-attachments/assets/48a2b766-303c-4306-97b3-8921eb92df1c)
+  
 
 # Git Revert
 
