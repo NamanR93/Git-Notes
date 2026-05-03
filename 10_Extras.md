@@ -1,4 +1,10 @@
-# rename
+## cherry-pick
+
+   - `git cherry-pick <hash> `
+   - It is used to apply a specific commit from one branch onto another, without merging the another branch.
+   - It a act of picking a commit from a branch and applying it to another.
+     
+## rename
 
 ` mv file.txt file2.txt `
 - this will change the name file to file2
@@ -12,7 +18,7 @@
 -  ` :wq! ` : will save the things in vim and exit it.
 
 
-# Alias
+## Alias
 
 - If we want to create the shortcuts for our commands, we can do that as well.
 - This can be done either for particular repo or globally as well
