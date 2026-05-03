@@ -2,20 +2,34 @@
 
 # Git Reset
 
-## Case 1 : Undo staged changes
+- It is used to undo commits or changes by moving the HEAD and current branch pointer to a specific commit.
+- It can also modify the staging area and working directory depending on the options used.
 
-1. Unstage a Specific File: 
-      -  To unstage a specific file, keeping your changes in the working directory 
-      - `git reset <file-name>`
+  Types of Reset:
+
+  1. --soft: moves Head, but keeps changes staged. Use when you want to undo a commit but keep the changes for a recommit.
+          `git reset --soft <hash>`
+  
+  2. --mixed(default): moved Head and unstage changes, keeping changes in the working directory.
+            - use when you want to undo staged changes.
+
+      - Unstage a Specific File: 
+            -  To unstage a specific file, keeping your changes in the working directory 
+            - `git reset <file-name>`
     
-2. Unstage All Files: To unstage all files, keeping changes in the working directory
-      - This will remove all files from the staging area, but keep your changes in the working directory.
-      - `git reset`
-        
-### Example
-staged file --> not staged
+      -  Unstage All Files: To unstage all files, 
+            - This will remove all files from the staging area, but keep your changes in the working directory.
+            - `git reset`
+         ### Example
+            - staged file --> not staged
+            ![image](https://github.com/user-attachments/assets/1995d975-9d3f-4bbb-a2f2-616cebe304e5)
 
-![image](https://github.com/user-attachments/assets/1995d975-9d3f-4bbb-a2f2-616cebe304e5)
+  3. --hard: moved HEAD and discard all changes (both staged and working directory)
+     
+        - This command will remove all changes after the specified commit, including those in the working directory.
+        - `git reset -- hard <commit-hash>`
+        
+
 
 ## Case 2 : Undo commited changes (for one commit)
 
@@ -33,33 +47,17 @@ staged file --> not staged
 
   ![image](https://github.com/user-attachments/assets/48a2b766-303c-4306-97b3-8921eb92df1c)
 
-## Case 3 : Undo Committed Changes (for many commits)
-
-1. Reset to a Specific Commit:
-    -  To undo commits up to a specific commit, keeping changes in the working directory and staging area
-    -  This command will move the branch pointer to the specified commit and keep your changes.
-    - `git reset <commit-hash>`
-      
-### Example
-
-   ![image](https://github.com/user-attachments/assets/e695515e-171c-44ab-972a-d575bf28be6c)
-
-2. Reset to a Specific Commit and Discard Changes:
-    - To reset to a specific commit and discard all changes (both staged and working directory)
-    - This command will remove all changes after the specified commit, including those in the working directory.
-    - `git reset -- hard <commit-hash>`
-      
-### Example
-
-![image](https://github.com/user-attachments/assets/038771e1-7416-4456-8832-9c77d948a327)
-
-
 # Git Revert
 
 - Undo a Commit Without Losing History
 - git revert creates a new commit that undoes the changes made by a previous commit.
 - Unlike git reset, it preserves the commit history, making it ideal for collaborative workflows
 - `git revert <commit-hash>`
+
+# Git Ammend
+
+   - ` git commit --amend -m "meesage" `
+   - It is used to modify the most recent commit - either by changing the commit message or by including new changes in      it.
 
 
 # Git Staged
